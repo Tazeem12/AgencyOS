@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --app-bg: #f4f6f9;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --accent: #0f172a;
+  --accent-muted: #475569;
+  --ring: #6366f1;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--accent);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgb(199 210 254 / 0.9);
+  color: rgb(15 23 42);
+}
+
+/* Focus visible for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+  outline: none;
+}
