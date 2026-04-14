@@ -1,8 +1,8 @@
-# Codence Fullstack Task
+# AgencyOs 
 
-Codence Fullstack Task is an internal agency workspace for managing clients, projects, tasks, dashboard metrics, and activity history. The app uses Supabase for passwordless email authentication and Postgres storage, with Next.js App Router handling the frontend and API layer.
+AgencyOS is an internal agency workspace for managing clients, projects, tasks, dashboard metrics, and activity history. The app uses Supabase for passwordless email authentication and Postgres storage, with Next.js App Router handling the frontend and API layer.
 
-**Live app:** 
+**Live app:** https://agency-os-iota-three.vercel.app/
 
 ## Tech Stack
 
@@ -23,8 +23,8 @@ A [Supabase](https://supabase.com) project
 
 1. **Clone** the repository and install dependencies:
    ```bash
-   git clone https://github.com/Tazeem12/.git
-   cd 
+   git clone https://github.com/Tazeem12/AgencyOS.git
+   cd project-name
    npm install
    ```
 
